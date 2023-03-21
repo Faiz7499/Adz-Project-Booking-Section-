@@ -1,0 +1,129 @@
+.heading {
+    padding-bottom: 15px;
+   color: #0f8dc5;
+    background-image: linear-gradient(to right, #000 50%, rgba(0, 0, 74, 0) 0%);
+    background-position: bottom;
+    background-size: 12px 1px;
+    background-repeat: repeat-x;
+
+}
+
+.p1 {
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+    box-shadow: rgba(0, 44, 155, 0.15) 0px 6px 20px -6px;
+    max-width: 350px;
+    padding: 20px 20px;
+    position: relative;
+    transition: box-shadow 0.4s ease 0s, transform 0.4s ease 0s;
+    width: 100%;
+  left: 5%;
+    
+}
+.p13{
+    margin-left: 10px;
+}
+.p12{
+    margin-left: 10px;
+}
+.p1:hover{
+    cursor: pointer;
+    position: relative;
+    top: 2%;
+}
+.para{
+    color:rgb(8, 27, 75) ;
+}
+
+.price {
+    margin-left: 10px;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.availableheading{
+    background-image: linear-gradient(to right, #0f8dc5 50%, rgba(212, 106, 0, 0) 0%);
+    background-position: top;
+    background-size: 4px 2px;
+    background-repeat: repeat-x;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.maincontent p {
+    font-size: 14px;
+    font-weight: 500;
+  color: rgb(8, 27, 75);
+}
+
+.maincontent i {
+    color: #0f8dc5;
+    
+}
+
+.btn {
+    margin-top: 15PX;
+   color: #f39623;
+    border: 2px solid #f39623;
+    height: 40px;
+    width: 150PX;
+    align-items: center;
+    border-radius: 20PX;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    border: 2px solid #f39623;
+    font-size: 17px;
+    font-weight: 600;
+    color: #f39623;
+
+}
+.para{
+    color: rgb(8, 27, 75);
+}
+@media only screen and (max-width:1070px){
+   .p1{
+    position: relative;
+    left: 10%;
+    
+   }
+   .p12{
+    margin-left: 20px;
+   }
+   .p13{
+    position: relative;
+    left: 28%;
+   }
+}
+@media only screen and (max-width:720px){
+    .p1{
+     position: relative;
+     left: 20%;
+    
+    }
+    .p11{
+        margin-left: 10px;
+    }
+    .p12{
+        margin-left: 10px;
+    }
+ }
+ @media only screen and (max-width:540px){
+    .p1{
+     position: relative;
+     left: 5%;
+    
+    }
+   
+ }
+ @media only screen and (max-width:391px){
+    .p1{
+     position: relative;
+     left: 0%;
+    
+    }
+   
+ }
