@@ -1,6 +1,6 @@
 .heading {
     padding-bottom: 15px;
-   color: #0f8dc5;
+   color: #f39623;
     background-image: linear-gradient(to right, #000 50%, rgba(0, 0, 74, 0) 0%);
     background-position: bottom;
     background-size: 12px 1px;
@@ -44,12 +44,13 @@
 
 }
 .availableheading{
-    background-image: linear-gradient(to right, #0f8dc5 50%, rgba(212, 106, 0, 0) 0%);
-    background-position: top;
-    background-size: 4px 2px;
-    background-repeat: repeat-x;
+    margin-top: 5px;
     padding-top: 15px;
-    margin-top: 15px;
+    background-image: linear-gradient(to right, #000 50%, rgba(0, 0, 74, 0) 0%);
+    background-position: top;
+    background-size: 12px 1px;
+    background-repeat: repeat-x;
+   color: rgb(8, 27, 75);
 }
 
 .maincontent p {
@@ -59,7 +60,7 @@
 }
 
 .maincontent i {
-    color: #0f8dc5;
+    color: rgb(8, 27, 75);
     
 }
 
