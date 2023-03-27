@@ -5,33 +5,26 @@
     background-position: bottom;
     background-size: 12px 1px;
     background-repeat: repeat-x;
-
+   
 }
 
 .p1 {
-    margin-top: 25px;
+    margin-top: 15px;
     background-color: rgb(255, 255, 255);
     border-radius: 24px;
     box-shadow: rgba(0, 44, 155, 0.15) 0px 6px 20px -6px;
-    max-width: 350px;
-    padding: 20px 20px;
-    position: relative;
+    width: 350px;
+    padding: 20px 10px;
     transition: box-shadow 0.4s ease 0s, transform 0.4s ease 0s;
-    width: 100%;
-  left: 5%;
+height: 500px;
     
 }
-.p13{
-    margin-left: 10px;
-}
-.p12{
-    margin-left: 10px;
-}
-.p1:hover{
+
+/* .p1:hover{
     cursor: pointer;
     position: relative;
     top: 2%;
-}
+} */
 .para{
     color:rgb(8, 27, 75) ;
 }
@@ -85,7 +78,7 @@
 .para{
     color: rgb(8, 27, 75);
 }
-@media only screen and (max-width:1070px){
+/* @media only screen and (max-width:1070px){
    .p1{
     position: relative;
     left: 10%;
@@ -124,6 +117,27 @@
     .p1{
      position: relative;
      left: 0%;
+    
+    }
+   
+ } */
+ @media only screen and (max-width:768px){
+    .p1{
+     margin-left: 50px;
+    
+    }
+   
+ }
+ @media only screen and (max-width:450px){
+    .p1{
+     margin-left: 20px;
+    
+    }
+   
+ }
+ @media only screen and (max-width:390px){
+    .p1{
+     margin-left: 0px;
     
     }
    
